@@ -1,0 +1,443 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: custom40db243dbb0f4ab6bfcbd;
+
+}
+nav{
+    height: 60px;
+    background-color:#351a55;
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 80px;
+    position: fixed;
+    width: 100%;
+}
+nav #d1{
+    /* border: 2px solid red; */
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav #d2{
+    /* border: 2px solid ; */
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ol{
+    list-style: none;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 19px;
+    font-weight: 100;
+}
+nav ol li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+}
+nav ol button{
+    border: 1px solid white ;
+    padding: 2px 12px ;
+    border-radius: 50px ;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+
+}
+main {
+  background: url('https://rmkcdn.successfactors.com/508c965a/95f3e5a6-d58f-41c2-8bfb-d.jpg');
+  background-size: cover;   
+  background-position: center; 
+  background-repeat: no-repeat;
+  height: 430px;
+  width: 100%;    
+  display: flex;
+    justify-content: center;
+    align-items: flex-end;         
+}
+main div{
+    /* border: 2px solid red; */
+    height: 180px;
+    width: 600px;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+}
+section{
+    /* border: 2px solid; */
+    height: 120px;
+    background-color: black;
+    align-items: center;
+   
+}
+section ol{
+    list-style: none;
+     display: flex;
+    justify-content: center;
+    gap: 35px;
+    /* flex-direction: row; */
+    align-items: center;
+    padding-top: 40px;
+
+}
+section input{
+    width: 480px;
+     height: 40px;
+    border: none;
+    background: #ebebeb;
+    border-radius: 50px;
+    font-size: 15px;
+}
+section button{
+   width: 40px;
+     height: 40px;
+    border: none;
+    background: #ebebeb;
+     border-radius: 50%;
+     color: black;
+     font-size: 20px;
+
+}
+aside{
+    /* border: 2px solid red; */
+    height:670px ;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside div{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 86%;
+}
+aside #d3{
+    display: flex;
+    gap: 15px;
+    font-size: 28px;
+    font-weight: 600;
+}
+aside div h1{
+    color: #351a55;
+    font-size: 48px;
+    letter-spacing: -2px;
+}
+aside div h3{
+    font-size: 26px;
+    font-weight: 550;
+    /* letter-spacing: -1px; */
+}
+aside div p{
+    font-size: 25px;
+    line-height: 38px;
+}
+#sec2{
+    /* border: 2px solid red; */
+    height: 300px;
+    background-color:#351a55;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#sec2 div{
+    /* border: 2px solid green; */
+    height: 80%;
+    width: 82%;
+}
+#sec2 div h1{
+    font-size: 45px;
+
+}
+#sec2 div h3{
+    font-size: 28px;
+
+}
+#sec2 div p{
+    font-size: 27px;
+    line-height: 35px;
+
+}
+ #a1{
+    /* border: 2px solid; */
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(242, 242, 242, 1.0);
+} 
+#a1 div{
+    /* border: 2px solid pink; */
+    height: 100%;
+    width: 88%;
+      display: flex;
+    justify-content: center;
+     align-items: center;
+}
+#a1 #d5{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 70%;
+}
+#a1 #d6{
+    /* border: 2px solid rgb(14, 10, 87); */
+    height: 100%;
+    width: 70%;
+}
+#a1 img{
+    height: 100%;
+    width: 100%;
+} 
+#a1 ol{
+    list-style: none;
+    
+}
+#a1 h1{
+    font-size: 60px;
+}
+#sec3{
+    /* border: 2px solid black; */
+    background-color: white;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#sec3 #sec3d1{
+     /* border: 2px solid rgb(101, 25, 25); */
+     height: 500px;
+     width: 80%;
+}
+#sec3 h1{
+    font-size: 48px;
+    color: #351a55;
+}
+#sec3, #sec3d2{
+     /* border: 2px solid rgb(101, 25, 25); */
+      display:flex;
+    justify-content: space-around;
+    align-items: center;
+     height: 250px;
+     width: 100%; */
+}
+#sec3 p{
+    font-size: 25px;
+    color: black;
+}
+#sec3 #p1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#ifd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe{
+    height: 500px;
+     width: 80%;
+     align:center;
+}
+#a3{
+    /* border: 2px solid red; */
+    height: 520px;
+}
+#a3 #as3d1{
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#a3 #as3d2{
+    /* border: 2px solid rgb(146, 25, 155); */
+    width: 99%;
+    /* height: 100%;
+    width: 80%; */
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+#a3 #as3d2 h1{
+    font-size: 28px;
+    color: black;
+}
+#a3 #as3d2 p{
+    font-size: 19px;
+    color: black;
+    line-height: 25px;
+}
+#sec4{
+    /* border: 2px solid red; */
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec4 #s4d1{
+    /* border: 2px solid gray; */
+    height: 88%;
+    width: 85%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(242, 242, 242, 1.0);
+    gap: 20px;
+    
+}
+#sec4 #s4d1 img{
+    /* border: 2px solid; */
+    height: 160px;
+    width: 400px;
+    padding-top: 10px;
+}
+#sec4 #s4d2{
+    /* border: 2px solid red; */
+    width: 39%
+}
+#sec4 #s4d3{
+    /* border: 2px solid red; */
+    width: 39%
+}
+#sec4 #s4d4{
+    /* border: 2px solid red; */
+    width: 39%
+}
+#sec4 h1,h3{
+    color: #351a55;
+}
+#sec4 p{
+    font-size: 24px;
+}
+#sec4 h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer section{
+    /* border: 2px solid red; */
+    height: 300px;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer section div{
+    /* border: 2px solid green; */
+    height: 80%;
+    width:500px
+}
+footer section div h1{
+    font-size: 50px;
+    text-align: center;
+}
+footer section div p{
+    font-size: 55px;
+    /* border: 2px solid; */
+     text-align: center;
+    width: 500px; 
+}
+footer aside{
+    /* border: 2px solid; */
+    height: 450px;
+    background: url(https://rmkcdn.successfactors.com/508c965a/4d77aaef-1e5f-4387-9cb3-3.jpg) ;
+    background-size: cover;   
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+footer aside div{
+    /* border: 2px solid; */
+    height: 300px;
+    width: 87%;
+    color: white;
+}
+footer aside h2{
+     /* border: 2px solid; */
+    height: 150px;
+    width: 450px;
+    font-size: 40px;
+    font-weight: 550;
+}
+footer aside p{
+     /* border: 2px solid; */
+    height: 100px;
+    width: 90%;
+    font-size: 38px;
+    color: white;
+    line-height: 50px;
+}
+footer #sec5{
+    /* border: 2px solid red; */
+    height: 400px;
+    /* background-color: white; */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: rgba(242, 242, 242, 1.0);
+}
+footer #sec5 div{
+    /* border: 2px solid; */
+    height: 80%;
+    width: 85%;
+     display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+footer #sec5 p{
+    font-size: 20px;
+    width: 100%;
+    /* border: 2px solid red; */
+    text-align: start;
+    line-height: 30px;
+
+}
+footer #sec6{
+    /* border: 2px solid red; */
+    background-color:#351a55;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+footer #sec6 #s6d1{
+    /* border: 2px solid; */
+    height: 90%;
+    width: 80%;
+}
+footer #sec6 #s6d1 p{
+    font-size: 20px;
+    /* border: 2px solid red; */
+    width: 70%;
+    text-align: start;
+    line-height: 30px;
+}
+footer #sec6 #s6d1 div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+footer #sec6 #s6d1 #pl{
+    width:350px ;
+    height: auto;
+    font-size: 38px;
+}
+footer #sec6 p{
+    cursor: pointer;
+}
